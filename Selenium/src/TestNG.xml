@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG project" guice-stage="DEVELOPMENT">
+  <test  name="TestNG features testing" >
+    <classes>
+      <class name="com.test.ExceptionTimeOutTest"/>
+       <class name="com.test.GoogleTest"/>
+      <class name="com.test.InvocationCountTest"/>
+      <class name="com.test.TestNgFeature"/>
+      <class name="com.test.TestNgProject"/> 
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

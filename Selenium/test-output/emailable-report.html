@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestNG project</th></tr>
+<tr><td><a href="#t0">TestNG features testing</a></td><td class="num">22</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">81,803</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG project</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestNG features testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.ExceptionTimeOutTest</td><td><a href="#m0">infinitloopTest</a></td><td rowspan="1">1656337448399</td><td rowspan="1">20</td></tr><tr class="failedodd"><td rowspan="1">com.test.TestNgFeature</td><td><a href="#m1">logintest</a></td><td rowspan="1">1656337530027</td><td rowspan="1">2</td></tr><tr><th colspan="4">TestNG features testing &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.test.TestNgFeature</td><td><a href="#m2">Homepagetest</a></td><td rowspan="1">1656337530040</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">RegPage</a></td><td rowspan="1">1656337530048</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m4">SearchPg</a></td><td rowspan="1">1656337530055</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestNG features testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.ExceptionTimeOutTest</td><td><a href="#m5">Test1</a></td><td rowspan="1">1656337448372</td><td rowspan="1">14</td></tr><tr class="passedodd"><td rowspan="8">com.test.GoogleTest</td><td><a href="#m6">abc</a></td><td rowspan="1">1656337510441</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m7">def</a></td><td rowspan="1">1656337497424</td><td rowspan="1">59</td></tr><tr class="passedodd"><td><a href="#m8">ghi</a></td><td rowspan="1">1656337528962</td><td rowspan="1">11</td></tr><tr class="passedodd"><td><a href="#m9">googlelogotest</a></td><td rowspan="1">1656337488925</td><td rowspan="1">91</td></tr><tr class="passedodd"><td><a href="#m10">googletitletest</a></td><td rowspan="1">1656337460523</td><td rowspan="1">28</td></tr><tr class="passedodd"><td><a href="#m11">jkl</a></td><td rowspan="1">1656337519407</td><td rowspan="1">69</td></tr><tr class="passedodd"><td><a href="#m12">maillinktest</a></td><td rowspan="1">1656337479738</td><td rowspan="1">183</td></tr><tr class="passedodd"><td><a href="#m13">mno</a></td><td rowspan="1">1656337470028</td><td rowspan="1">2</td></tr><tr class="passedeven"><td rowspan="10">com.test.InvocationCountTest</td><td><a href="#m14">sum</a></td><td rowspan="10">1656337529969</td><td rowspan="10">2</td></tr><tr class="passedeven"><td><a href="#m15">sum</a></td></tr><tr class="passedeven"><td><a href="#m16">sum</a></td></tr><tr class="passedeven"><td><a href="#m17">sum</a></td></tr><tr class="passedeven"><td><a href="#m18">sum</a></td></tr><tr class="passedeven"><td><a href="#m19">sum</a></td></tr><tr class="passedeven"><td><a href="#m20">sum</a></td></tr><tr class="passedeven"><td><a href="#m21">sum</a></td></tr><tr class="passedeven"><td><a href="#m22">sum</a></td></tr><tr class="passedeven"><td><a href="#m23">sum</a></td></tr><tr class="passedodd"><td rowspan="3">com.test.TestNgProject</td><td><a href="#m24">googlelogotest</a></td><td rowspan="1">1656337530076</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m25">googletitletest</a></td><td rowspan="1">1656337530083</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m26">searchtext</a></td><td rowspan="1">1656337530087</td><td rowspan="1">18</td></tr></tbody>
+</table>
+<h2>TestNG features testing</h2><h3 id="m0">com.test.ExceptionTimeOutTest#infinitloopTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.thread.ThreadTimeoutException: Method com.test.ExceptionTimeOutTest.infinitloopTest() didn&apos;t finish within the time-out 2
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.TestNgFeature#logintest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArithmeticException: / by zero
+	at com.test.TestNgFeature.logintest(TestNgFeature.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.TestNgFeature#Homepagetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestNgFeature.Homepagetest()[pri:0, instance:com.test.TestNgFeature@2584b82d] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.TestNgFeature#RegPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestNgFeature.RegPage()[pri:0, instance:com.test.TestNgFeature@2584b82d] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.TestNgFeature#SearchPg</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestNgFeature.SearchPg()[pri:0, instance:com.test.TestNgFeature@2584b82d] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.ExceptionTimeOutTest#Test1</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;100A&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at com.test.ExceptionTimeOutTest.Test1(ExceptionTimeOutTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.GoogleTest#abc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test.GoogleTest#def</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test.GoogleTest#ghi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.test.GoogleTest#googlelogotest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.test.GoogleTest#googletitletest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.test.GoogleTest#jkl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.test.GoogleTest#maillinktest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.test.GoogleTest#mno</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.test.TestNgProject#googlelogotest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.test.TestNgProject#googletitletest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.test.TestNgProject#searchtext</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
